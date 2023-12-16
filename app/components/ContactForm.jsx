@@ -98,7 +98,6 @@ export default function ContactForm() {
           <textarea
             onChange={(e) => setMessage(e.target.value)}
             value={message}
-            className="h-32"
             id="message"
             className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
 
